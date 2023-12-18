@@ -1,0 +1,31 @@
+// Algorithm SentenceAnalysis
+// Input: A sentence ending with a period (.)
+
+Variables:
+  sentence: string
+  length: integer
+  wordCount: integer
+  vowelCount: integer
+  character: char
+
+// Initialize length to 0
+// Initialize wordCount to 0
+// Initialize vowelCount to 0
+
+// Print("Enter a sentence ending with a period:")
+// Read sentence
+
+// For each character in sentence
+    Increment length by 1
+
+    If character is a letter (A-Z or a-z)
+        If character is a vowel (a, e, i, o, u, or their uppercase counterparts)
+            Increment vowelCount by 1
+
+    If character is a space
+        Increment wordCount by 1
+
+Print("Length of the sentence:", length)
+Print("Number of words:", wordCount + 1)  
+// Adding 1 to account for the last word after the last space
+Print("Number of vowels:", vowelCount)
